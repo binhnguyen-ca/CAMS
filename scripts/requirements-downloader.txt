@@ -1,0 +1,4 @@
+# Dành cho máy tải dữ liệu (PC của bạn). KHÔNG cần trên Streamlit Cloud.
+requests>=2.31
+playwright>=1.40
+tzdata>=2024.1   # cần cho zoneinfo trên Windows (múi giờ America/Anchorage)

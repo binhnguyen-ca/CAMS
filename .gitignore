@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Secrets — KHONG BAO GIO commit
+.streamlit/secrets.toml
+.env
+*.token
+
+# Phien dang nhap xuat ra de mang sang VM (chua cookie Google) — KHONG commit
+ca_state.json
+cams_state.json
+*.storage_state.json
+
+# Ho so trinh duyet (chua phien dang nhap Google)
+.ca-grafana-profile/
+.cams-grafana-profile/
+
+# Luu y: KHONG ignore data/ — snapshot commit DIM (campaigns.csv) + FACT (facts/<ngay>.csv)
