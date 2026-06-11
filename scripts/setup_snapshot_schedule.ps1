@@ -1,10 +1,12 @@
-# Tao tac vu "CAMS Snapshot" chay 24 khung/ngay @ HH:05 (gio VN cua may) + chay bu khi logon.
+# Tao tac vu "CAMS Snapshot" chay 24 khung/ngay @ HH:55 (gio VN cua may) + chay bu khi logon.
+# Chup tai :55 = CHOT khung gio ke tiep (vd 14:55 -> khung 15:00 = chot ca ngay Anchorage,
+# chi hut 5 phut cuoi). App hien thi khung = gio chup + 5 phut (transform.vn_label).
 # Chay 1 lan (khong can admin):  powershell -ExecutionPolicy Bypass -File scripts\setup_snapshot_schedule.ps1
 $ErrorActionPreference = "Stop"
 
 $hours = 0..23
 $triggers = @(foreach ($h in $hours) {
-    New-ScheduledTaskTrigger -Daily -At ("{0:00}:05" -f $h)
+    New-ScheduledTaskTrigger -Daily -At ("{0:00}:55" -f $h)
 })
 
 # Catch-up khi logon: task dang ky kieu Interactive -> sau khi Windows Update tu reboot
@@ -29,7 +31,7 @@ $settings = New-ScheduledTaskSettingsSet -StartWhenAvailable -WakeToRun `
     -ExecutionTimeLimit (New-TimeSpan -Minutes 50)
 
 Register-ScheduledTask -TaskName "CAMS Snapshot" -Action $action -Trigger $triggers `
-    -Settings $settings -Description "CAMS: snapshot all-marketer Crossian (DIM+FACT) 24 khung/ngay @ HH:05 + catch-up logon" -Force | Out-Null
+    -Settings $settings -Description "CAMS: snapshot all-marketer Crossian (DIM+FACT) 24 khung/ngay @ HH:55 + catch-up logon" -Force | Out-Null
 
-Write-Host "Da dat 'CAMS Snapshot': 24 khung/ngay @ HH:05 + chay bu khi logon; WakeToRun=ON."
+Write-Host "Da dat 'CAMS Snapshot': 24 khung/ngay @ HH:55 + chay bu khi logon; WakeToRun=ON."
 Write-Host "Go bo:  Unregister-ScheduledTask -TaskName 'CAMS Snapshot' -Confirm:`$false"

@@ -35,13 +35,16 @@ def marketer_label(email) -> str:
 
 
 def to_vn_hour(day, ah) -> int:
-    """Gio Anchorage HH24 -> gio VN HH24 (zoneinfo tu xu ly DST)."""
-    dt = datetime(day.year, day.month, day.day, int(ah), tzinfo=ANCH_TZ)
+    """Gio Anchorage (0..24, 24 = 0h hom sau) -> gio VN HH24 (zoneinfo tu xu ly DST)."""
+    dt = datetime(day.year, day.month, day.day, tzinfo=ANCH_TZ) + timedelta(hours=int(ah))
     return dt.astimezone(VN_TZ).hour
 
 
 def vn_label(day, ah) -> str:
-    return f"{to_vn_hour(day, ah):02d}:00"
+    """Nhan khung gio VN cua snapshot hh=ah. Snapshot chup luc ah:55 Anchorage -> khung
+    mang nhan gio KET THUC (ah+1): vd chup 14:55 VN -> khung '15:00'. Thu tu ah 0..23
+    -> nhan chay 16:00 ... 15:00, khung 15:00 nam CUOI = chot ca ngay (chup 14:55)."""
+    return f"{to_vn_hour(day, int(ah) + 1):02d}:00"
 
 
 def dedup_facts(facts: pd.DataFrame) -> pd.DataFrame:
@@ -128,7 +131,7 @@ def _compute_row(df_rows: pd.DataFrame) -> dict:
 
 def aggregate_hours(delta_rows: pd.DataFrame, ref_day) -> list[dict]:
     """Gop theo gio Anchorage (toan range) -> list dict metrics, kem 'Giờ' (nhan VN) + '_ah'.
-    Thu tu = ngay lam viec Anchorage 0..23 -> nhan VN chay 15:00 -> 14:00."""
+    Thu tu = ngay lam viec Anchorage 0..23 -> nhan VN chay 16:00 -> 15:00 (15:00 cuoi)."""
     if delta_rows is None or delta_rows.empty:
         return []
     rows = []
@@ -148,7 +151,8 @@ def _now_anch() -> datetime:
 
 
 def _is_future(day, ah, now_anch) -> bool:
-    return datetime(day.year, day.month, day.day, ah, tzinfo=ANCH_TZ) > now_anch
+    """Khung ah CHUA den gio chup (ah:55 Anchorage) -> chua co gi de hien thi."""
+    return datetime(day.year, day.month, day.day, ah, 55, tzinfo=ANCH_TZ) > now_anch
 
 
 def _carry_forward_states(fc: pd.DataFrame):
@@ -180,13 +184,17 @@ def campaign_day_rows(fc: pd.DataFrame, day, now_anch: datetime | None = None) -
 
     rows, prev_budget = [], None
     for ah in range(24):
-        future = _is_future(day, ah, now_anch)
         if ah in by_ah:
             m = _compute_row(pd.DataFrame([by_ah[ah]]))
         else:
             m = {}
         m["Giờ"] = vn_label(day, ah)
-        rs = None if future else asof[ah]
+        # Khung da co snapshot -> luon hien thi. Chua co: qua gio chup -> ke thua
+        # (carried, danh dau *), chua toi gio chup -> de trong.
+        if ah in present:
+            rs = asof[ah]
+        else:
+            rs = None if _is_future(day, ah, now_anch) else asof[ah]
         if rs is not None:
             status, budget = rs
             m["Status"] = "ACTIVE" if status == "ACTIVE" else "PAUSE"
@@ -224,7 +232,10 @@ def campaign_total_row(fc: pd.DataFrame, day, choice, now_anch: datetime | None 
     cum = cum_asof.get(ah)
     m = _compute_row(pd.DataFrame([cum])) if cum else {}
     m["Giờ"] = "Total"
-    rs = None if (choice != "ALL" and _is_future(day, ah, now_anch)) else asof.get(ah)
+    if choice == "ALL" or ah in present:
+        rs = asof.get(ah)
+    else:
+        rs = None if _is_future(day, ah, now_anch) else asof.get(ah)
     if rs is not None:
         status, budget = rs
         m["Status"] = "ACTIVE" if status == "ACTIVE" else "PAUSE"
@@ -251,7 +262,9 @@ def total_budget_by_ah(facts_subset: pd.DataFrame, now_anch: datetime | None = N
             continue
         first_present = min(present)
         for ah in range(24):
-            if ah < first_present or _is_future(day, ah, now_anch):
+            if ah < first_present:
+                continue
+            if ah not in present and _is_future(day, ah, now_anch):
                 continue
             rs = asof[ah]
             if rs is None:
@@ -267,7 +280,7 @@ def total_budget_by_ah(facts_subset: pd.DataFrame, now_anch: datetime | None = N
             continue
         fp = min(present)
         for ah in range(24):
-            if ah >= fp and not _is_future(day, ah, now_anch):
+            if ah >= fp and (ah in present or not _is_future(day, ah, now_anch)):
                 day_valid[ah].add(day)
     out = {}
     for ah in range(24):

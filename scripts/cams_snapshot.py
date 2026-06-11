@@ -9,8 +9,11 @@ Moi lan chay (1 query lay tat ca campaign Crossian cua ngay Anchorage hien tai):
   - APPEND  data/facts/<YYYY-MM-DD>.csv (FACT, dong): hh, campaign_id, status, budget,
                                         spent, impressions, clicks, views, checkout, purchase, rev
 hh   = gio Anchorage (00-23) tai thoi diem chup ; file FACT = ngay Anchorage.
-Metrics trong FACT = CONG DON day-to-date (00:00 Anchorage -> bay gio) -> app dung diff
-giua 2 gio lien tiep de ra so theo-gio. budget/status la point-in-time (khong diff).
+Task Scheduler goi tai phut :55 -> snapshot hh=H la CHOT cua khung gio H+1 (app hien
+thi nhan H+1, xem transform.vn_label; vd chup 23:55 Anchorage = 14:55 VN -> khung 15:00
+= chot ca ngay). Metrics trong FACT = CONG DON day-to-date (00:00 Anchorage -> bay gio)
+-> app dung diff giua 2 gio lien tiep de ra so theo-gio. budget/status la point-in-time
+(khong diff).
 
 Dau lay data (core.remote_auth): GRAFANA_TOKEN -> token ; GRAFANA_COOKIE -> cookie ;
 khong co -> trinh duyet da dang nhap (PC).

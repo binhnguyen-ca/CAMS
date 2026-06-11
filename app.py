@@ -222,7 +222,8 @@ Bạn chỉ cần chọn tên mình — không cần cài gì.
 2. **Sản phẩm** → chỉ hiện SP của bạn (🟢 = có chi 2 ngày gần nhất).
 3. **Data Range** → khoảng ngày muốn xem.
 
-**Giờ** hiển thị theo **giờ VN** (quy đổi từ giờ chạy ads của Mỹ) — chạy **15:00 → 14:00 hôm sau** = đúng 1 ngày làm việc.
+**Giờ** hiển thị theo **giờ VN** (quy đổi từ giờ chạy ads của Mỹ) — chạy **16:00 → 15:00 hôm sau** = đúng 1 ngày làm việc.
+Mỗi khung **H:00** = chốt số liệu lúc **(H-1):55** (chụp 5 phút trước giờ tròn). Khung **15:00 cuối bảng = chốt cả ngày** (chụp 14:55).
 
 **3 bảng:**
 - **Gộp theo giờ (toàn range):** mỗi giờ trong ngày trung bình ra sao. Cột **Total Budget** = TB/ngày tổng budget các campaign đang ACTIVE ở giờ đó.
@@ -390,10 +391,11 @@ def main():
     total_row = T.campaign_total_row(fc, cmp_d, choice)
     total_row["Giờ"] = f"Σ {sel}"
     st.markdown(build_campaign_status_table_html([total_row] + crows), unsafe_allow_html=True)
-    st.caption("*Hàng Σ (Total): Status & Budget = snapshot tại giờ đã chọn; Metrics = cộng dồn "
-               "15:00 → giờ đó. Budget đổi màu chữ: xanh=tăng, đỏ=giảm so với giờ trước. "
-               "Ô có dấu \\* = giờ bị miss snapshot — Status/Budget kế thừa từ giờ gần nhất "
-               "trước đó, không phải giá trị thực ghi tại giờ đó.*")
+    st.caption("*Hàng Σ (Total): Status & Budget = snapshot tại khung đã chọn; Metrics = cộng dồn "
+               "từ đầu ngày (15:00) → khung đó. Khung H:00 = chốt lúc (H-1):55. Budget đổi màu "
+               "chữ: xanh=tăng, đỏ=giảm so với giờ trước. Ô có dấu \\* = khung bị miss snapshot — "
+               "Status/Budget kế thừa từ khung gần nhất trước đó, không phải giá trị thực ghi "
+               "tại khung đó.*")
 
 
 main()

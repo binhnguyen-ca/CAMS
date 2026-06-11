@@ -1,4 +1,4 @@
-# CAMS — snapshot tat ca marketer Crossian (DIM+FACT), day len GitHub. Task Scheduler goi 24 lan/ngay @ HH:05.
+# CAMS — snapshot tat ca marketer Crossian (DIM+FACT), day len GitHub. Task Scheduler goi 24 lan/ngay @ HH:55.
 # Chay tay thu:  powershell -ExecutionPolicy Bypass -File scripts\run_snapshot.ps1
 # (File ASCII khong dau de tranh loi encoding Windows PowerShell 5.1.)
 $ErrorActionPreference = "Stop"

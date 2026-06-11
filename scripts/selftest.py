@@ -97,6 +97,26 @@ check("ah2 budget_dir 0 (120->120)", r2["budget_dir"] == 0, r2["budget_dir"])
 check("ah3 future? khong (NOW=2030) -> carry-forward ACTIVE", rows[3]["Status"] == "ACTIVE", rows[3]["Status"])
 check("ah0 ME theo-gio = 10", abs((r0.get("ME") or 0) - 10) < 1e-6, r0.get("ME"))
 
+print("== vn_label (khung = gio KET THUC; chup ah:55) ==")
+check("ah0 -> 16:00 (chup 15:55 VN)", T.vn_label(DAY, 0) == "16:00", T.vn_label(DAY, 0))
+check("ah22 -> 14:00", T.vn_label(DAY, 22) == "14:00", T.vn_label(DAY, 22))
+check("ah23 -> 15:00 cuoi ngay (chup 14:55 VN)", T.vn_label(DAY, 23) == "15:00", T.vn_label(DAY, 23))
+
+print("== pending vs carried (gio chup = ah:55) ==")
+# 02:30 Anch: ah2 DA co snapshot -> hien thi du chua toi 02:55; ah3 chua toi gio chup -> trong
+NOW2 = datetime(2026, 6, 1, 2, 30, tzinfo=ANCH)
+rows2 = T.campaign_day_rows(fc1, DAY, now_anch=NOW2)
+check("ah2 co snapshot, truoc :55 -> van hien", rows2[2]["Status"] == "ACTIVE", rows2[2]["Status"])
+check("ah2 khong danh dau *", rows2[2].get("_carried") is False, rows2[2].get("_carried"))
+check("ah3 chua toi gio chup -> trong", rows2[3]["Status"] is None, rows2[3]["Status"])
+# 04:30 Anch: ah3 qua gio chup (03:55) ma khong co snapshot -> ke thua + danh dau *
+NOW3 = datetime(2026, 6, 1, 4, 30, tzinfo=ANCH)
+rows3 = T.campaign_day_rows(fc1, DAY, now_anch=NOW3)
+check("ah3 qua gio chup, miss -> carried + *",
+      rows3[3]["Status"] == "ACTIVE" and rows3[3].get("_carried") is True,
+      (rows3[3]["Status"], rows3[3].get("_carried")))
+check("ah4 chua toi gio chup -> trong", rows3[4]["Status"] is None, rows3[4]["Status"])
+
 print("== campaign_total_row (c1) ==")
 tot_all = T.campaign_total_row(fc1, DAY, "ALL", now_anch=NOW)
 check("Total ALL ME = cumulative cuoi = 40", abs(tot_all["ME"] - 40) < 1e-6, tot_all["ME"])

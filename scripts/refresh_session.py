@@ -80,21 +80,38 @@ def main() -> int:
                         except Exception:
                             pass
 
-                # Tren trang chon tai khoan Google -> bam dung o tai khoan (chi khi co EMAIL)
-                if "accounts.google.com" in url and EMAIL:
+                # Tren trang chon tai khoan Google -> bam dung o tai khoan.
+                # Co EMAIL -> bam dung email do. KHONG co EMAIL -> neu chooser chi co
+                # DUNG 1 account thi bam luon (2026-06-11: Google bat dau hien chooser
+                # du chi 1 account -> khong bam = treo den het gio -> miss khung).
+                if "accounts.google.com" in url:
                     picked = False
-                    # uu tien click ca o <li> (account tile), roi cac fallback
-                    for loc in (page.locator(f'li:has-text("{EMAIL}")').first,
-                                page.locator(f'[data-email="{EMAIL}"]').first,
-                                page.locator(f'[data-identifier="{EMAIL}"]').first,
-                                page.get_by_text(EMAIL, exact=False).first):
-                        try:
-                            if loc.count() > 0:
-                                loc.click(timeout=4000)
-                                picked = True
-                                break
-                        except Exception:
-                            continue
+                    if EMAIL:
+                        # uu tien click ca o <li> (account tile), roi cac fallback
+                        for loc in (page.locator(f'li:has-text("{EMAIL}")').first,
+                                    page.locator(f'[data-email="{EMAIL}"]').first,
+                                    page.locator(f'[data-identifier="{EMAIL}"]').first,
+                                    page.get_by_text(EMAIL, exact=False).first):
+                            try:
+                                if loc.count() > 0:
+                                    loc.click(timeout=4000)
+                                    picked = True
+                                    break
+                            except Exception:
+                                continue
+                    else:
+                        # markup chooser 2026: div[data-email] trong button[name="chooser[select]"];
+                        # [data-identifier] la markup cu — giu lai phong khi Google tra ve ban cu
+                        for sel in ("[data-email]", "[data-identifier]",
+                                    'button[name="chooser[select]"]'):
+                            tiles = page.locator(sel)
+                            try:
+                                if tiles.count() == 1:
+                                    tiles.first.click(timeout=4000)
+                                    picked = True
+                                    break
+                            except Exception:
+                                continue
                     page.wait_for_timeout(2500)
                     if picked:
                         continue

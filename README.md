@@ -10,7 +10,7 @@ ngày) → đẩy GitHub → hiển thị bằng **Streamlit** (1 trang *Metrics
 ## Kiến trúc
 
 ```
-PC nhà (Task Scheduler, 24x/ngày @ HH:05 giờ VN)
+PC nhà (Task Scheduler, 24x/ngày @ HH:55 giờ VN + chạy bù khi logon)
   ├─ git pull --rebase --autostash
   ├─ scripts/refresh_session.py     (gia hạn phiên Grafana qua cookie Google, headless)
   ├─ scripts/cams_snapshot.py       (crawl all-marketer Crossian, campaign-level)
@@ -20,9 +20,11 @@ PC nhà (Task Scheduler, 24x/ngày @ HH:05 giờ VN)
 GitHub (private)  →  Streamlit Cloud đọc DIM+FACT  →  app.py (Metrics by Hour)
 ```
 
-- **hh** = giờ Anchorage (00–23); file FACT = ngày Anchorage (data ads chạy giờ US).
+- **hh** = giờ Anchorage (00–23) lúc chụp; file FACT = ngày Anchorage (data ads chạy giờ US).
+- Chụp tại phút **:55** → app hiển thị **khung = giờ kế tiếp** (chụp 14:55 VN → khung 15:00
+  = chốt cả ngày, nằm cuối bảng; bảng chạy 16:00 → 15:00).
 - FACT metrics = **cộng dồn day-to-date**; app tự `diff` 2 giờ liên tiếp ra số theo-giờ.
-- budget/status = **point-in-time** (carry-forward), KHÔNG diff.
+- budget/status = **point-in-time** (carry-forward, ô kế thừa có dấu `*`), KHÔNG diff.
 
 ## File chính
 | File | Vai trò |
@@ -31,7 +33,7 @@ GitHub (private)  →  Streamlit Cloud đọc DIM+FACT  →  app.py (Metrics by 
 | `scripts/cams_query_snapshot.sql` | Query snapshot all-marketer Crossian (1 dòng/campaign) |
 | `scripts/cams_snapshot.py` | Crawler hằng giờ → ghi DIM + FACT |
 | `scripts/run_snapshot.ps1` | Runner PC: pull → refresh → snapshot → commit/push |
-| `scripts/setup_snapshot_schedule.ps1` | Đăng ký Task Scheduler "CAMS Snapshot" 24x @ HH:05 |
+| `scripts/setup_snapshot_schedule.ps1` | Đăng ký Task Scheduler "CAMS Snapshot" 24x @ HH:55 + WakeToRun + catch-up logon |
 | `utils/transform.py` | Tái dựng per-hour, gộp giờ, Total Budget, hàng campaign (thuần pandas) |
 | `utils/data_loader.py` | Loader DIM+FACT cho Streamlit (`@st.cache_data`) |
 | `utils/metrics.py` | Công thức + format metrics — copy từ CA |
@@ -44,7 +46,7 @@ GitHub (private)  →  Streamlit Cloud đọc DIM+FACT  →  app.py (Metrics by 
 - Marketer/Sản phẩm có ME (spent>0) trong 2 ngày gần nhất: 🟢 + đẩy lên đầu, còn lại alphabet.
 - **Bảng gộp giờ**: thêm cột **Total Budget** = TB/ngày tổng daily_budget campaign ACTIVE tại giờ đó.
 - **Màu**: ROAS xanh nhất tại **3**, CR xanh nhất tại **7%**, CPP/CPV thấp=xanh. CPM/CPC không tô.
-- **Bảng campaign**: hàng **Σ Total** (chọn giờ 15:00→14:00 + All; Status/Budget as-of giờ, Metrics = cộng dồn tới giờ đó) + 24 giờ; ô **Budget đổi màu chữ** (xanh=tăng/đỏ=giảm vs giờ trước).
+- **Bảng campaign**: hàng **Σ Total** (chọn khung 16:00→15:00 + All; Status/Budget as-of khung, Metrics = cộng dồn tới khung đó) + 24 khung; ô **Budget đổi màu chữ** (xanh=tăng/đỏ=giảm vs giờ trước).
 
 ## Setup trên PC nhà (checklist)
 > Profile Chromium `~/.ca-grafana-profile` (cookie đăng nhập) **không copy được giữa máy** (mã hóa
@@ -56,7 +58,7 @@ pip install -r scripts/requirements-downloader.txt   # requests, playwright, tzd
 python -m playwright install chromium
 python scripts/login.py            # mở browser -> đăng nhập Google -> tự lưu khi thấy dashboard
 python scripts/cams_snapshot.py    # chạy thử 1 nhịp -> data/campaigns.csv + data/facts/<hôm nay>.csv
-powershell -ExecutionPolicy Bypass -File scripts\setup_snapshot_schedule.ps1   # 24x @ HH:05
+powershell -ExecutionPolicy Bypass -File scripts\setup_snapshot_schedule.ps1   # 24x @ HH:55
 ```
 Gỡ task: `Unregister-ScheduledTask -TaskName 'CAMS Snapshot' -Confirm:$false`
 
