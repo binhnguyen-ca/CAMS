@@ -1,6 +1,9 @@
 # Python
 __pycache__/
 *.pyc
+
+# Log chay snapshot (run_snapshot.ps1 ghi vao day)
+logs/
 .venv/
 venv/
 

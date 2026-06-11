@@ -191,6 +191,9 @@ def campaign_day_rows(fc: pd.DataFrame, day, now_anch: datetime | None = None) -
             status, budget = rs
             m["Status"] = "ACTIVE" if status == "ACTIVE" else "PAUSE"
             m["Budget"] = budget
+            # Gio bi MISS snapshot: Status/Budget la ke thua (carry-forward) tu gio
+            # gan nhat truoc do, KHONG phai gia tri thuc ghi tai gio nay -> app danh dau *
+            m["_carried"] = ah not in present
             # R12: huong thay doi budget so voi gio (co budget) truoc
             if budget is not None and prev_budget is not None:
                 m["budget_dir"] = 1 if budget > prev_budget else (-1 if budget < prev_budget else 0)
@@ -200,6 +203,7 @@ def campaign_day_rows(fc: pd.DataFrame, day, now_anch: datetime | None = None) -
                 prev_budget = budget
         else:
             m["Status"], m["Budget"], m["budget_dir"] = None, None, 0
+            m["_carried"] = False
         rows.append(m)
     return rows
 
@@ -225,8 +229,10 @@ def campaign_total_row(fc: pd.DataFrame, day, choice, now_anch: datetime | None 
         status, budget = rs
         m["Status"] = "ACTIVE" if status == "ACTIVE" else "PAUSE"
         m["Budget"] = budget
+        m["_carried"] = ah not in present
     else:
         m["Status"], m["Budget"] = None, None
+        m["_carried"] = False
     m["budget_dir"] = 0
     return m
 

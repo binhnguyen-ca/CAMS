@@ -170,10 +170,14 @@ def build_campaign_status_table_html(rows) -> str:
                 cells += f"<td style='{cell_style(c, i, True)}'>{v}</td>"
             elif c == "Status":
                 v = r.get("Status") or ""
-                cells += f"<td style='text-align:center;{_status_style(v)}border-right:{sep};'>{v}</td>"
+                # * = gio bi miss snapshot -> Status/Budget ke thua tu gio truoc (transform._carried)
+                mark = "*" if (v and r.get("_carried")) else ""
+                cells += f"<td style='text-align:center;{_status_style(v)}border-right:{sep};'>{v}{mark}</td>"
             elif c == "Budget":
                 b = r.get("Budget")
                 v = _fmt_money0(b)
+                if v and r.get("_carried"):
+                    v += "*"
                 d = r.get("budget_dir", 0)
                 col = "color:#137333;font-weight:bold;" if d > 0 else \
                       ("color:#c5221f;font-weight:bold;" if d < 0 else "")
@@ -387,7 +391,9 @@ def main():
     total_row["Giờ"] = f"Σ {sel}"
     st.markdown(build_campaign_status_table_html([total_row] + crows), unsafe_allow_html=True)
     st.caption("*Hàng Σ (Total): Status & Budget = snapshot tại giờ đã chọn; Metrics = cộng dồn "
-               "15:00 → giờ đó. Budget đổi màu chữ: xanh=tăng, đỏ=giảm so với giờ trước.*")
+               "15:00 → giờ đó. Budget đổi màu chữ: xanh=tăng, đỏ=giảm so với giờ trước. "
+               "Ô có dấu \\* = giờ bị miss snapshot — Status/Budget kế thừa từ giờ gần nhất "
+               "trước đó, không phải giá trị thực ghi tại giờ đó.*")
 
 
 main()
