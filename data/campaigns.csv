@@ -39,7 +39,7 @@ campaign_id,marketer,product,campaign_name,first_seen,last_seen
 120243205951310642,thinh.cuongnguyen@crossian.com,EaseMotions,2_EaseMotions_CBO153_v25.0_t11.2_b7.0;b7.1;b7.2_Px_TNC_Easemotions_27 (0578)_ADVANTAGE_ALL_18-65_All_All_All_21126,2026-06-09,2026-06-10
 120243211134690146,anh.hoangduy@crossian.com,JettJeans3,12_JettJeans3_CBO153_v75.0;v75.1;v75.2_t31.1_b62.2;b66.0;V_20250208063625_l3.0_AHD - Pixel Ex (487)_ADVANTAGE_ALL_18-65_All_All_All_11134,2026-06-09,2026-06-10
 120243211247840146,anh.hoangduy@crossian.com,JettJeans3,6_JettJeans3_CBO-113-Adv-Adv_i7.1;v69.1;v74.2_t23.2;t28.0_b50.1;b69.1_AHD - Pixel Ex (487)_ADVANTAGE_ALL_18-65_All_All_All_11134,2026-06-09,2026-06-10
-120243211532370146,anh.hoangduy@crossian.com,JettJeans3,2_JettJeans3_CBO153_v73.2;v74.1;v75.0_t23.2;t28.0;t31.1_b50.1;b62.1;V_20250208063625_l3.0_AHD - Pixel Ex (487)_ADVANTAGE_ALL_18-65_All_All_All_11134,2026-06-09,2026-06-09
+120243211532370146,anh.hoangduy@crossian.com,JettJeans3,2_JettJeans3_CBO153_v73.2;v74.1;v75.0_t23.2;t28.0;t31.1_b50.1;b62.1;V_20250208063625_l3.0_AHD - Pixel Ex (487)_ADVANTAGE_ALL_18-65_All_All_All_11134,2026-06-09,2026-06-10
 120243227249480177,trung.duyle@crossian.com,MiraHug,7_MiraHug_CBO151_v17.2_t4.2_b1.0_Px_TLD_MiraHug_28 (0677)_ADVANTAGE_ALL_18-65_All_All_All_23509,2026-06-09,2026-06-10
 120243266949270146,anh.hoangduy@crossian.com,JettJeans3,23_JettJeans3_CBO153_i14.6;v74.1;v74.2_t23.2;t28.0;t30.2_b50.1;b69.1_l3.0_AHD - Pixel Ex (487)_ADVANTAGE_ALL_18-65_All_All_All_11134,2026-06-09,2026-06-10
 120243276755660065,thai.ducvo@crossian.com,SonaShape,1_SonaShape_CBO153_v20.2;v20.0;v20.1_t6.2.1_b1.1_Px_TVD_SonaShape_02 (1906)N_ADVANTAGE_ALL_18-65_All_All_All_24679,2026-06-09,2026-06-10
@@ -206,6 +206,11 @@ campaign_id,marketer,product,campaign_name,first_seen,last_seen
 120244550853910436,marketer01@crossian.com,FlexCamo3,23_FlexCamo_CBO151_v55.0_t7.0_b1.2_NTB - Pixel Dr (231)_ADVANTAGE_ALL_18-65_All_All_All_15689,2026-06-09,2026-06-10
 120244550855510436,marketer01@crossian.com,FlexCamo3,24_FlexCamo_CBO151_v55.0_t7.0_b1.2_NTB - Pixel Dr (231)_ADVANTAGE_ALL_18-65_All_All_All_15689,2026-06-09,2026-06-09
 120244561628480678,anh.thenguyen@crossian.com,DoveLoom,3_DoveLoom_CBO153_v12.2;i5.1;v31.0_t2.2;t13.1_b3.0_Px_ANT_ DoveLoom_27 (5259)_ADVANTAGE_ALL_18-65_All_All_All_20671,2026-06-10,2026-06-10
+120244566387920788,khoa.anhle@crossian.com,EaseMotions,11_EaseMotions_CBO-156-Adv-Adv_v20.2;i12.2;v30.0_t12.0;t15.0;t15.1;t15.2_b7.0;b7.1;b7.2_l1.0_Px_KLA_EaseMotions_79 (7646)_ADVANTAGE_ALL_18-65_All_All_All_28114,2026-06-10,2026-06-10
+120244566507460788,khoa.anhle@crossian.com,EaseMotions,10_EaseMotions_CBO153_v20.2;i12.2;v30.0_t12.0;t15.1_b7.1;b7.2_l1.0_Px_KLA_EaseMotions_79 (7646)_ADVANTAGE_ALL_18-65_All_All_All_28114,2026-06-10,2026-06-10
+120244566548030788,khoa.anhle@crossian.com,EaseMotions,4_EaseMotions_CBO153_v31.2_t16.0;t16.1;t16.2_b7.0_l1.0_Px_KLA_EaseMotions_79 (7646)_ADVANTAGE_ALL_18-65_All_All_All_28114,2026-06-10,2026-06-10
+120244566743700788,khoa.anhle@crossian.com,EaseMotions,2_EaseMotions_CBO151_v20.2_t16.0.1_b8.2_l1.0_Px_KLA_EaseMotions_79 (7646)_ADVANTAGE_ALL_18-65_All_All_All_28114,2026-06-10,2026-06-10
+120244566743750788,khoa.anhle@crossian.com,EaseMotions,1_EaseMotions_CBO151_v20.2_t16.0.1_b8.2_l1.0_Px_KLA_EaseMotions_79 (7646)_ADVANTAGE_ALL_18-65_All_All_All_28114,2026-06-10,2026-06-10
 120244569933480320,thinh.cuongnguyen@crossian.com,EaseFlexor,1_EaseFlexor_CBO153_i13.0;i13.1;i13.2_t3.1__l1.0_TNC - Pixel Ci (840)_ADVANTAGE_ALL_18-65_All_All_All_17596,2026-06-09,2026-06-10
 120244581454670686,anh.hoangduy@crossian.com,ZoeShape,2_ZoeShape_CBO153_v22.0;v22.2_t2.1;t9.0_b8.1_l2.2_Px_AHD_ZoeShape_15 (1268)_ADVANTAGE_ALL_18-65_All_All_All_22970,2026-06-09,2026-06-10
 120244581811200686,anh.hoangduy@crossian.com,ZoeShape,13_ZoeShape_CBO151_v21.0_t9.0_b8.1_Px_AHD_ZoeShape_15 (1268)_ADVANTAGE_ALL_18-65_All_All_All_22970,2026-06-10,2026-06-10
