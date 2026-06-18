@@ -969,6 +969,7 @@ campaign_id,marketer,product,campaign_name,first_seen,last_seen
 120245972793100477,nhat.longtran@crossian.com,Veracomfort 3.0,3_Veracomfort_CBO153_v7.1;v12.2_t2.0;t2.1_b1.0;b11.0;b11.1_Px_NTL_Veracomfort_62 (1152)_ADVANTAGE_ALL_18-65_All_All_All_26385,2026-06-09,2026-06-10
 120245972793140477,nhat.longtran@crossian.com,Veracomfort 3.0,2_Veracomfort_CBO153_v7.1;v12.2_t2.0;t2.1_b1.0;b11.0;b11.1_Px_NTL_Veracomfort_62 (1152)_ADVANTAGE_ALL_18-65_All_All_All_26385,2026-06-09,2026-06-10
 120245980788570752,nhat.longtran@crossian.com,ZipLacy,1_ZipLacy_CBO153_v28.0;v28.1;v28.2_t7.0_b1.2_Px_NTL_ZipLacy_25 (9540)_ADVANTAGE_ALL_18-65_All_All_All_21940,2026-06-09,2026-06-18
+120245982293310025,minh.dinhnguyen@crossian.com,SolinEase,5_SolinEase_CBO151_v1.1_t1.0_b1.0_Px_MND_SolinEase_79 (4202)_ADVANTAGE_ALL_18-65_All_All_All_29325,2026-06-18,2026-06-18
 120245983160760090,tu.minhpham@crossian.com,SoftyGrace,2_SoftyGrace_CBO-113-Adv-Adv_i6.1;v17.0;v19.1_t1.1_b1.1_l1.1_Px_TPM_SoftyGrace_25 (3186)_ADVANTAGE_ALL_18-65_All_All_All_24069,2026-06-09,2026-06-09
 120245987169440477,nhat.longtran@crossian.com,Veracomfort 3.0,1_Veracomfort_CBO151_v7.1_t2.1_b11.0_Px_NTL_Veracomfort_62 (1152)_ADVANTAGE_ALL_18-65_All_All_All_26385,2026-06-09,2026-06-11
 120245988448830780,long.qvnguyen@crossian.com,Activa Bra 2.0,1_Activa Bra_CBO153_i6.1;i6.3;v29.2_t3.0;t13.2_b2.0_l2.1_Px_LNVQ_Activabra_77 (7743)_ADVANTAGE_ALL_18-65_All_All_All_28277,2026-06-17,2026-06-18
@@ -1901,7 +1902,7 @@ campaign_id,marketer,product,campaign_name,first_seen,last_seen
 120247418407680509,duc.vannguyen@crossian.com,MultiPants2,1_MultiPants_CBO153_aiv2.3.9x16;aiv2.3.4x5;aiv2.3.1x1_ait2.3_aib2.3_DNV - Pixel CI (252)_ADVANTAGE_ALL_18-65_All_All_All_16137,2026-06-11,2026-06-12
 120247419103190214,thien.caoly@crossian.com,Hana Bra,18_Hana Bra_CBO-151- Value -Adv-Adv_v13.1_t4.1_b1.0_l1.0_Px_TCL_HanaBra_15 (4808)_ADVANTAGE_ALL_18-65_All_All_All_28263,2026-06-17,2026-06-17
 120247419103470214,thien.caoly@crossian.com,Hana Bra,19_Hana Bra_CBO-151- Value -Adv-Adv_v13.1_t4.1_b1.0_l1.0_Px_TCL_HanaBra_15 (4808)_ADVANTAGE_ALL_18-65_All_All_All_28263,2026-06-17,2026-06-18
-120247419139850214,thien.caoly@crossian.com,Hana Bra,63_Hana Bra_CBO151_v13.1_t4.1_b1.0_l1.0_Px_TCL_HanaBra_15 (4808)_ADVANTAGE_ALL_18-65_All_All_All_28263,2026-06-17,2026-06-17
+120247419139850214,thien.caoly@crossian.com,Hana Bra,63_Hana Bra_CBO151_v13.1_t4.1_b1.0_l1.0_Px_TCL_HanaBra_15 (4808)_ADVANTAGE_ALL_18-65_All_All_All_28263,2026-06-17,2026-06-18
 120247419140760214,thien.caoly@crossian.com,Hana Bra,62_Hana Bra_CBO151_v13.1_t4.1_b1.0_l1.0_Px_TCL_HanaBra_15 (4808)_ADVANTAGE_ALL_18-65_All_All_All_28263,2026-06-17,2026-06-17
 120247419632870629,thanh.tritran@crossian.com,AirFlexion,1_AirFlexion_CBO153_aiv4.1.4x5;aiv4.2.9x16;aiv4.3.4x5_ait4.2;ait4.3;ait4.1_aib4.3;aib4.2;aib4.1_Px_TTT_Air Flexion_15 (4167)_ADVANTAGE_ALL_18-65_All_All_All_22590,2026-06-15,2026-06-17
 120247419632940629,thanh.tritran@crossian.com,AirFlexion,2_AirFlexion_CBO153_aiv4.1.4x5;aiv4.2.9x16;aiv4.3.4x5_ait4.2;ait4.3;ait4.1_aib4.3;aib4.2;aib4.1_Px_TTT_Air Flexion_15 (4167)_ADVANTAGE_ALL_18-65_All_All_All_22590,2026-06-15,2026-06-18
@@ -2688,7 +2689,7 @@ campaign_id,marketer,product,campaign_name,first_seen,last_seen
 120248383861080100,duc.vannguyen@crossian.com,Icy Shorts,1_iAIv2_Icy Shorts_CBO-153-AI img-Adv-Adv_v23.1;v21.1 (9:16);i7.0_t15.0;t17.1_b6.0 (4:5);b6.0 (9:16)_l2.2_Px_DNV_Icy Shorts_27 (3911)_ADVANTAGE_ALL_18-65_All_All_All_21043,2026-06-09,2026-06-18
 120248383960600544,hoang.xuanpham@crossian.com,AmourLift,5_AmourLift_CBO153_v20.0;v20.1;v20.2_t5.0_b1.0_Px_HTNH_Amourlift_28 (7943)N_ADVANTAGE_ALL_18-65_All_All_All_26038,2026-06-15,2026-06-17
 120248383960820544,hoang.xuanpham@crossian.com,AmourLift,6_AmourLift_CBO153_v20.0;v20.1;v20.2_t5.0_b1.0_Px_HTNH_Amourlift_28 (7943)N_ADVANTAGE_ALL_18-65_All_All_All_26038,2026-06-15,2026-06-15
-120248384078410455,tu.minhpham@crossian.com,StretchActive3,1_StretchActive_CBO153_i12.1;v74.2;i18.2_t34.2;t42.0_b3.0_l1.2_Px_TPM_StretchActive_B8 (2969)_ADVANTAGE_ALL_18-65_All_All_All_15069,2026-06-12,2026-06-16
+120248384078410455,tu.minhpham@crossian.com,StretchActive3,1_StretchActive_CBO153_i12.1;v74.2;i18.2_t34.2;t42.0_b3.0_l1.2_Px_TPM_StretchActive_B8 (2969)_ADVANTAGE_ALL_18-65_All_All_All_15069,2026-06-12,2026-06-18
 120248384078440455,tu.minhpham@crossian.com,StretchActive3,2_StretchActive_CBO153_i12.1;v74.2;i18.2_t34.2;t42.0_b3.0_l1.2_Px_TPM_StretchActive_B8 (2969)_ADVANTAGE_ALL_18-65_All_All_All_15069,2026-06-12,2026-06-18
 120248385353200168,nhat.longtran@crossian.com,TimelessForm,1_TimelessForm_CBO151_v44.2_t16.0_V_20250215045652_Px_NTL_TimelessForm_25 (0184)_ADVANTAGE_ALL_18-65_All_All_All_23862,2026-06-13,2026-06-18
 120248386305620455,tu.minhpham@crossian.com,StretchActive3,1_StretchActive_CBO153_aiv2.1.4x5;aiv2.3.9x16;aiv2.2.4x5_ait2.3;ait2.1;ait2.2_aib2.2;aib2.1;aib2.3_Px_TPM_StretchActive_B8 (2969)_ADVANTAGE_ALL_18-65_All_All_All_15069,2026-06-12,2026-06-17
@@ -2713,7 +2714,7 @@ campaign_id,marketer,product,campaign_name,first_seen,last_seen
 120248414403420695,dung.tiennguyen@crossian.com,ModenEase,5_ModenEase_CBO153_v5.1;v17.2;i5.1_t9.1_b1.0_Px_DNT_ModenEase_28 (1110)_ADVANTAGE_ALL_18-65_All_All_All_23409,2026-06-09,2026-06-10
 120248415494240469,manh.ductruong@crossian.com,ArcticMove,2_ArcticMove_CBO153_v7.2;v8.1;i4.2_t1.2;t1.0_b1.0_Px_MTD_ArcticMove_CXN (9309)_ADVANTAGE_ALL_18-65_All_All_All_28491,2026-06-13,2026-06-13
 120248415697360455,tu.minhpham@crossian.com,StretchActive3,1_StretchActive_CBO-113-Adv-Adv_v38.0;i5.1;v71.2_t27.2;t16.0;t42.0_b2.0;b3.0_Px_TPM_StretchActive_B8 (2969)_ADVANTAGE_ALL_18-65_All_All_All_15069,2026-06-13,2026-06-14
-120248415697400455,tu.minhpham@crossian.com,StretchActive3,2_StretchActive_CBO-113-Adv-Adv_v38.0;i5.1;v71.2_t27.2;t16.0;t42.0_b2.0;b3.0_Px_TPM_StretchActive_B8 (2969)_ADVANTAGE_ALL_18-65_All_All_All_15069,2026-06-13,2026-06-16
+120248415697400455,tu.minhpham@crossian.com,StretchActive3,2_StretchActive_CBO-113-Adv-Adv_v38.0;i5.1;v71.2_t27.2;t16.0;t42.0_b2.0;b3.0_Px_TPM_StretchActive_B8 (2969)_ADVANTAGE_ALL_18-65_All_All_All_15069,2026-06-13,2026-06-18
 120248416194110455,tu.minhpham@crossian.com,StretchActive3,2_StretchActive_CBO-113-Adv-Adv_v34.2;v42.0;i12.2_t34.2;t16.0;t24.1_b2.0;V_20241213113639_l1.1_Px_TPM_StretchActive_B8 (2969)_ADVANTAGE_ALL_18-65_All_All_All_15069,2026-06-13,2026-06-14
 120248416194170455,tu.minhpham@crossian.com,StretchActive3,1_StretchActive_CBO-113-Adv-Adv_v34.2;v42.0;i12.2_t34.2;t16.0;t24.1_b2.0;V_20241213113639_l1.1_Px_TPM_StretchActive_B8 (2969)_ADVANTAGE_ALL_18-65_All_All_All_15069,2026-06-13,2026-06-18
 120248416310980455,tu.minhpham@crossian.com,StretchActive3,1_StretchActive_CBO-113-Adv-Adv_v38.0;v64.2;i12.1_t34.2;t38.2;t16.0_b2.0;b3.0_l1.0_Px_TPM_StretchActive_B8 (2969)_ADVANTAGE_ALL_18-65_All_All_All_15069,2026-06-13,2026-06-14
@@ -2881,7 +2882,7 @@ campaign_id,marketer,product,campaign_name,first_seen,last_seen
 120248565368580152,thien.caoly@crossian.com,FlexRover,1_FlexRover_CBO153_aiv2.3.1x1;aiv2.3.9x16;aiv2.3.4x5_ait2.3_aib2.3_TCL - Pixel LLC 27 (067)_ADVANTAGE_ALL_18-65_All_All_All_20256,2026-06-11,2026-06-12
 120248565530720152,thien.caoly@crossian.com,FlexRover,1_FlexRover_CBO153_aiv2.1.1x1;aiv2.1.4x5;aiv2.1.9x16_ait2.1_aib2.1_TCL - Pixel LLC 27 (067)_ADVANTAGE_ALL_18-65_All_All_All_20256,2026-06-11,2026-06-12
 120248565664590561,son.ngochoang@crossian.com,Posy Bra,8_Posy Bra_CBO153_v25.0;i2.2;i8.0_t1.1;t9.2_b1.0_l1.1_Px_HNM_Posy Bra_28 (9453)_ADVANTAGE_ALL_18-65_All_All_All_24090,2026-06-16,2026-06-18
-120248565664670561,son.ngochoang@crossian.com,Posy Bra,10_Posy Bra_CBO153_v25.0;i2.2;i8.0_t1.1;t9.2_b1.0_l1.1_Px_HNM_Posy Bra_28 (9453)_ADVANTAGE_ALL_18-65_All_All_All_24090,2026-06-16,2026-06-16
+120248565664670561,son.ngochoang@crossian.com,Posy Bra,10_Posy Bra_CBO153_v25.0;i2.2;i8.0_t1.1;t9.2_b1.0_l1.1_Px_HNM_Posy Bra_28 (9453)_ADVANTAGE_ALL_18-65_All_All_All_24090,2026-06-16,2026-06-18
 120248565664770561,son.ngochoang@crossian.com,Posy Bra,9_Posy Bra_CBO153_v25.0;i2.2;i8.0_t1.1;t9.2_b1.0_l1.1_Px_HNM_Posy Bra_28 (9453)_ADVANTAGE_ALL_18-65_All_All_All_24090,2026-06-16,2026-06-17
 120248566048970152,thien.caoly@crossian.com,FlexRover,31_FlexRover_CBO151_v37.0_t10.1_b1.0_TCL - Pixel LLC 27 (067)_ADVANTAGE_ALL_18-65_All_All_All_20256,2026-06-11,2026-06-11
 120248566051210152,thien.caoly@crossian.com,FlexRover,30_FlexRover_CBO151_v37.0_t10.1_b1.0_TCL - Pixel LLC 27 (067)_ADVANTAGE_ALL_18-65_All_All_All_20256,2026-06-11,2026-06-11
