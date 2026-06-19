@@ -633,7 +633,7 @@ campaign_id,marketer,product,campaign_name,first_seen,last_seen
 120245269350380630,khoa.minhle@crossian.com,AmourLift,7_AmourLift_CBO-152-Ori-Adv_v10.2_t3.1;t4.1_b1.0_Px_KLM_AmourLift_18 (3152)_ORIGINAL_ALL_18-54_All_All_All_26271,2026-06-10,2026-06-10
 120245269350470630,khoa.minhle@crossian.com,AmourLift,5_AmourLift_CBO-152-Ori-Adv_v10.2_t3.1;t4.1_b1.0_Px_KLM_AmourLift_18 (3152)_ORIGINAL_ALL_18-54_All_All_All_26271,2026-06-10,2026-06-10
 120245279091880436,marketer01@crossian.com,FlexCamo3,1_FlexCamo_CBO-156-Adv-Adv_i7.0;v60.0;v60.1;v62.1;v62.2;i8.0_t7.0_b1.2;b5.2_NTB - Pixel Dr (231)_ADVANTAGE_ALL_18-65_All_All_All_15689,2026-06-17,2026-06-18
-120245279091900436,marketer01@crossian.com,FlexCamo3,2_FlexCamo_CBO-156-Adv-Adv_i7.0;v60.0;v60.1;v62.1;v62.2;i8.0_t7.0_b1.2;b5.2_NTB - Pixel Dr (231)_ADVANTAGE_ALL_18-65_All_All_All_15689,2026-06-17,2026-06-17
+120245279091900436,marketer01@crossian.com,FlexCamo3,2_FlexCamo_CBO-156-Adv-Adv_i7.0;v60.0;v60.1;v62.1;v62.2;i8.0_t7.0_b1.2;b5.2_NTB - Pixel Dr (231)_ADVANTAGE_ALL_18-65_All_All_All_15689,2026-06-17,2026-06-18
 120245279159780436,marketer01@crossian.com,FlexCamo3,2_FlexCamo_CBO151_v62.1_t7.0_b5.2_NTB - Pixel Dr (231)_ADVANTAGE_ALL_18-65_All_All_All_15689,2026-06-17,2026-06-18
 120245279159880436,marketer01@crossian.com,FlexCamo3,1_FlexCamo_CBO151_v62.1_t7.0_b5.2_NTB - Pixel Dr (231)_ADVANTAGE_ALL_18-65_All_All_All_15689,2026-06-17,2026-06-18
 120245279293690436,marketer01@crossian.com,FlexCamo3,1_FlexCamo_CBO151_v62.2_t7.0_b5.2_NTB - Pixel Dr (231)_ADVANTAGE_ALL_18-65_All_All_All_15689,2026-06-17,2026-06-18
@@ -4031,6 +4031,9 @@ campaign_id,marketer,product,campaign_name,first_seen,last_seen
 52504357539299,hai.phunguyen@crossian.com,DoveLoom,1_DoveLoom_CBO151_v30.1.1_t2.2_b3.0_Px_HNP_DoveLoom_CXN (6980)_ADVANTAGE_ALL_18-65_All_All_All_28874,2026-06-17,2026-06-18
 52504358837099,hai.phunguyen@crossian.com,DoveLoom,3_DoveLoom_CBO-152-Adv-Adv_i5.1.1;v30.1.1_t2.2_b3.0_Px_HNP_DoveLoom_CXN (6980)_ADVANTAGE_ALL_18-65_All_All_All_28874,2026-06-17,2026-06-18
 52504358838899,hai.phunguyen@crossian.com,DoveLoom,4_DoveLoom_CBO-152-Adv-Adv_i5.1.1;v30.1.1_t2.2_b3.0_Px_HNP_DoveLoom_CXN (6980)_ADVANTAGE_ALL_18-65_All_All_All_28874,2026-06-17,2026-06-18
+52505890544899,hai.phunguyen@crossian.com,DoveLoom,5_DoveLoom_CBO-152-Adv-Adv_i5.1.1;v30.1.1_t2.2_b3.0_Px_HNP_DoveLoom_CXN (6980)_ADVANTAGE_ALL_18-65_All_All_All_28874,2026-06-18,2026-06-18
+52505890546099,hai.phunguyen@crossian.com,DoveLoom,6_DoveLoom_CBO-152-Adv-Adv_i5.1.1;v30.1.1_t2.2_b3.0_Px_HNP_DoveLoom_CXN (6980)_ADVANTAGE_ALL_18-65_All_All_All_28874,2026-06-18,2026-06-18
+52505892129699,hai.phunguyen@crossian.com,DoveLoom,3_DoveLoom_CBO151_v30.1.1_t2.2_b3.0_Px_HNP_DoveLoom_CXN (6980)_ADVANTAGE_ALL_18-65_All_All_All_28874,2026-06-18,2026-06-18
 6966949200095,hai.phunguyen@crossian.com,DoveLoom,1_DoveLoom_CBO153_v30.1;i5.1;v27.1_t2.2_b3.0_Px_HNP_DoveLoom_CXN (6980)_ADVANTAGE_ALL_18-65_All_All_All_28874,2026-06-11,2026-06-15
 6966949200895,hai.phunguyen@crossian.com,DoveLoom,2_DoveLoom_CBO153_v30.1;i5.1;v27.1_t2.2_b3.0_Px_HNP_DoveLoom_CXN (6980)_ADVANTAGE_ALL_18-65_All_All_All_28874,2026-06-09,2026-06-15
 6968638617026,luong.anhbui@crossian.com,MeshIrons,10_MeshIrons_CBO151_v17.1_t24.0_b3.1_Px_LBA_MeshIrons_79 (2475)_ADVANTAGE_ALL_18-65_All_All_All_28577,2026-06-09,2026-06-09
