@@ -2347,6 +2347,7 @@ campaign_id,marketer,product,campaign_name,first_seen,last_seen
 120247597779990751,thai.ducvo@crossian.com,IvyLift,1_IvyLift_CBO-153-Value-Ori-Adv-Inc_i8.2;v42.0;v42.1_t15.0.1;t18.2_b4.1_l1.1_Px_TVD_IvyLift_02 (7838)N_ORIGINAL_ALL_18-65_All_All_All_22071,2026-06-09,2026-06-16
 120247597780010751,thai.ducvo@crossian.com,IvyLift,2_IvyLift_CBO-153-Value-Ori-Adv-Inc_i8.2;v42.0;v42.1_t15.0.1;t18.2_b4.1_l1.1_Px_TVD_IvyLift_02 (7838)N_ORIGINAL_ALL_18-65_All_All_All_22071,2026-06-09,2026-06-20
 120247599986700509,linh.hvsu@crossian.com,AeriSoft,5_AeriSoft_CBO153_i5.0;i5.1;i5.2_t2.0.3__Px_LSHV_AeriSoft_62 (0510)_ADVANTAGE_ALL_18-65_All_All_All_26227,2026-06-14,2026-06-16
+120247600975870006,hai.phunguyen@crossian.com,SallyHug 3.0,4_SellyHug_CBO153_v5.1;i2.1_t4.0;t4.2_b1.0 - fix name_Px_HNP_SellyHug_CXN (4516)_ADVANTAGE_ALL_18-65_All_All_All_29460,2026-06-20,2026-06-20
 120247601292310065,thai.ducvo@crossian.com,SonaShape,1_SonaShape_CBO153_v25.0;v25.1;v25.2_t10.2_b10.2_Px_TVD_SonaShape_02 (1906)N_ADVANTAGE_ALL_18-65_All_All_All_24679,2026-06-10,2026-06-14
 120247601292330065,thai.ducvo@crossian.com,SonaShape,2_SonaShape_CBO153_v25.0;v25.1;v25.2_t10.2_b10.2_Px_TVD_SonaShape_02 (1906)N_ADVANTAGE_ALL_18-65_All_All_All_24679,2026-06-10,2026-06-14
 120247601538900425,thien.caoly@crossian.com,TimelessFlex,76_TimelessFlex_CBO-113-Adv-Adv_v47.0;v47.2;i14.2_t15.1_b10.0;b1.0.1_Px_TCL_TimelessFlex_28 (4845)_ADVANTAGE_ALL_18-65_All_All_All_19421,2026-06-09,2026-06-20
@@ -4865,6 +4866,9 @@ campaign_id,marketer,product,campaign_name,first_seen,last_seen
 6988547105833,manh.ductruong@crossian.com,AveraSoft 3.0,2_AveraSoft_CBO153_v2.0;v2.2;v2.1_t1.0_b1.0_Px_MTD_AveraSoft_ 79 (5336)_ADVANTAGE_ALL_18-65_All_All_All_29467,2026-06-19,2026-06-20
 6988605843426,luong.anhbui@crossian.com,MeshIrons,1_MeshIrons_CBO153_v18.0;v16.1.1;v21.1_t5.0;t12.0_b1.1;b3.1_Px_LBA_MeshIrons_79 (2475)_ADVANTAGE_ALL_18-65_All_All_All_28577,2026-06-12,2026-06-13
 6988605850626,luong.anhbui@crossian.com,MeshIrons,2_MeshIrons_CBO153_v18.0;v16.1.1;v21.1_t5.0;t12.0_b1.1;b3.1_Px_LBA_MeshIrons_79 (2475)_ADVANTAGE_ALL_18-65_All_All_All_28577,2026-06-12,2026-06-14
+6990167193233,manh.ductruong@crossian.com,AveraSoft 3.0,1_AveraSoft_CBO151_v2.2_t1.0_b1.0_Px_MTD_AveraSoft_ 79 (5336)_ADVANTAGE_ALL_18-65_All_All_All_29467,2026-06-20,2026-06-20
+6990167193633,manh.ductruong@crossian.com,AveraSoft 3.0,2_AveraSoft_CBO151_v2.2_t1.0_b1.0_Px_MTD_AveraSoft_ 79 (5336)_ADVANTAGE_ALL_18-65_All_All_All_29467,2026-06-20,2026-06-20
+6990171495233,manh.ductruong@crossian.com,AveraSoft 3.0,3_AveraSoft_CBO153_v2.0;v2.2;v2.1_t1.0_b1.0_Px_MTD_AveraSoft_ 79 (5336)_ADVANTAGE_ALL_18-65_All_All_All_29467,2026-06-20,2026-06-20
 6990760362626,luong.anhbui@crossian.com,MeshIrons,3_MeshIrons_CBO153_v18.0;v16.1.1;v21.1_t5.0;t12.0_b1.1;b3.1_Px_LBA_MeshIrons_79 (2475)_ADVANTAGE_ALL_18-65_All_All_All_28577,2026-06-14,2026-06-15
 6991096601295,hai.phunguyen@crossian.com,DoveLoom,1_DoveLoom_CBO-152-Adv-Adv_i5.1;v27.1_t2.2_b3.0_Px_HNP_DoveLoom_CXN (6980)_ADVANTAGE_ALL_18-65_All_All_All_28874,2026-06-09,2026-06-09
 6991096601495,hai.phunguyen@crossian.com,DoveLoom,2_DoveLoom_CBO-152-Adv-Adv_i5.1;v27.1_t2.2_b3.0_Px_HNP_DoveLoom_CXN (6980)_ADVANTAGE_ALL_18-65_All_All_All_28874,2026-06-09,2026-06-09
