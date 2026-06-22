@@ -536,7 +536,7 @@ campaign_id,marketer,product,campaign_name,first_seen,last_seen
 120244771837290544,hoang.xuanpham@crossian.com,AmourLift,74_AmourLift_CBO151_v10.2_t3.1_b1.0_Px_HTNH_Amourlift_28 (7943)N_ADVANTAGE_ALL_18-65_All_All_All_26038,2026-06-21,2026-06-22
 120244775698340146,anh.hoangduy@crossian.com,JettJeans3,1_JettJeans3_CBO153_v77.2;v77.0;v77.1_t31.1_b75.1_AHD - Pixel Ex (487)_ADVANTAGE_ALL_18-65_All_All_All_11134,2026-06-20,2026-06-21
 120244775698400146,anh.hoangduy@crossian.com,JettJeans3,2_JettJeans3_CBO153_v77.2;v77.0;v77.1_t31.1_b75.1_AHD - Pixel Ex (487)_ADVANTAGE_ALL_18-65_All_All_All_11134,2026-06-20,2026-06-21
-120244775729960146,anh.hoangduy@crossian.com,JettJeans3,1_JettJeans3_CBO153_v77.2;v77.0;v77.1_t27.0_b75.1_AHD - Pixel Ex (487)_ADVANTAGE_ALL_18-65_All_All_All_11134,2026-06-20,2026-06-21
+120244775729960146,anh.hoangduy@crossian.com,JettJeans3,1_JettJeans3_CBO153_v77.2;v77.0;v77.1_t27.0_b75.1_AHD - Pixel Ex (487)_ADVANTAGE_ALL_18-65_All_All_All_11134,2026-06-20,2026-06-22
 120244775729990146,anh.hoangduy@crossian.com,JettJeans3,2_JettJeans3_CBO153_v77.2;v77.0;v77.1_t27.0_b75.1_AHD - Pixel Ex (487)_ADVANTAGE_ALL_18-65_All_All_All_11134,2026-06-20,2026-06-21
 120244783755130320,thinh.cuongnguyen@crossian.com,EaseFlexor,4_EaseFlexor_CBO151_v37.0_tp3.1.1_b2.0_TNC - Pixel Ci (840)_ADVANTAGE_ALL_18-65_All_All_All_17596,2026-06-09,2026-06-16
 120244793522550320,thinh.cuongnguyen@crossian.com,EaseFlexor,4_iAIv2_EaseFlexor_CBO153_i11.0;v45.0_t3.1;to1.0;t12.0_b2.0_l1.0;l20260509183519_TNC - Pixel Ci (840)_ADVANTAGE_ALL_18-65_All_All_All_17596,2026-06-09,2026-06-21
@@ -4095,11 +4095,11 @@ campaign_id,marketer,product,campaign_name,first_seen,last_seen
 120249149146000048,duc.vannguyen@crossian.com,AeriStretch,7_AeriStretch_CBO153_v1.0;v1.1;v1.2_t1.1_b1.0_Px_DNV_AeriStretch_77 (6864)_ADVANTAGE_ALL_18-65_All_All_All_28200,2026-06-19,2026-06-19
 120249149449270048,duc.vannguyen@crossian.com,AeriStretch,3_AeriStretch_CBO151_v1.2_t1.1_b1.0_Px_DNV_AeriStretch_77 (6864)_ADVANTAGE_ALL_18-65_All_All_All_28200,2026-06-19,2026-06-19
 120249149449870048,duc.vannguyen@crossian.com,AeriStretch,4_AeriStretch_CBO151_v1.2_t1.1_b1.0_Px_DNV_AeriStretch_77 (6864)_ADVANTAGE_ALL_18-65_All_All_All_28200,2026-06-19,2026-06-19
-120249150798970152,thien.caoly@crossian.com,FlexRover,3_FlexRover_CBO153_v37.0_t16.0;t16.1;t16.2_b1.0_TCL - Pixel LLC 27 (067)_ADVANTAGE_ALL_18-65_All_All_All_20256,2026-06-21,2026-06-21
+120249150798970152,thien.caoly@crossian.com,FlexRover,3_FlexRover_CBO153_v37.0_t16.0;t16.1;t16.2_b1.0_TCL - Pixel LLC 27 (067)_ADVANTAGE_ALL_18-65_All_All_All_20256,2026-06-21,2026-06-22
 120249151139280057,anh.thenguyen@crossian.com,MiraEase,2_MiraEase_CBO151_v5.1_t7.1_b2.2_Px_ANT_MiraEase_18 (8031)_ADVANTAGE_ALL_18-65_All_All_All_25659,2026-06-09,2026-06-22
 120249152473440247,cpm.training2@crossian.com,Icy Shorts,2_Icy Shorts_CBO153_i7.0;v35.0;v35.1_t17.1_b6.0 (9:16);b8.1 (4:5)_l2.2_Px_PPPH_SoraEase_79 (8230)_ADVANTAGE_ALL_18-65_All_All_All_29314,2026-06-09,2026-06-12
 120249153177430152,thien.caoly@crossian.com,FlexRover,3_FlexRover_CBO153_v42.2;v42.1;v42.0_t10.1_b1.0_TCL - Pixel LLC 27 (067)_ADVANTAGE_ALL_18-65_All_All_All_20256,2026-06-21,2026-06-21
-120249155417730152,thien.caoly@crossian.com,FlexRover,4_FlexRover_CBO153_v37.0_t16.0;t16.1;t16.2_b1.0_TCL - Pixel LLC 27 (067)_ADVANTAGE_ALL_18-65_All_All_All_20256,2026-06-21,2026-06-21
+120249155417730152,thien.caoly@crossian.com,FlexRover,4_FlexRover_CBO153_v37.0_t16.0;t16.1;t16.2_b1.0_TCL - Pixel LLC 27 (067)_ADVANTAGE_ALL_18-65_All_All_All_20256,2026-06-21,2026-06-22
 120249156453230695,dung.tiennguyen@crossian.com,ModenEase,2_ModenEase_CBO151_v23.1_t9.0_b1.0_Px_DNT_ModenEase_28 (1110)_ADVANTAGE_ALL_18-65_All_All_All_23409,2026-06-18,2026-06-19
 120249158323670709,duc.minhphi@crossian.com,RemiCurve 1.0,1_RemiCurve_CBO151_v2.1.1_t1.0_b1.0_Px_PPPH_RemiCurve_77 (7450)_ADVANTAGE_ALL_18-65_All_All_All_29377,2026-06-14,2026-06-14
 120249158641440709,duc.minhphi@crossian.com,RemiCurve 1.0,1_RemiCurve_CBO153_v3.0;v3.1;v3.2_t1.0_b1.0_Px_PPPH_RemiCurve_77 (7450)_ADVANTAGE_ALL_18-65_All_All_All_29377,2026-06-14,2026-06-14
