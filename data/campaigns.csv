@@ -530,7 +530,7 @@ campaign_id,marketer,product,campaign_name,first_seen,last_seen
 120244761352230455,tu.minhpham@crossian.com,StretchActive3,2_StretchActive_CBO153_v74.0;v76.0;i18.1_t34.2;t38.2;t42.0_b3.0_l2.0_Px_TPM_StretchActive_B8 (2969)_ADVANTAGE_ALL_18-65_All_All_All_15069,2026-06-09,2026-06-23
 120244761515010455,tu.minhpham@crossian.com,StretchActive3,1_StretchActive_CBO153_v74.0;v76.0;i18.2_t34.2;t38.2;t42.0_b3.0_l2.0_Px_TPM_StretchActive_B8 (2969)_ADVANTAGE_ALL_18-65_All_All_All_15069,2026-06-09,2026-06-10
 120244761515050455,tu.minhpham@crossian.com,StretchActive3,2_StretchActive_CBO153_v74.0;v76.0;i18.2_t34.2;t38.2;t42.0_b3.0_l2.0_Px_TPM_StretchActive_B8 (2969)_ADVANTAGE_ALL_18-65_All_All_All_15069,2026-06-09,2026-06-23
-120244761582650436,marketer01@crossian.com,FlexCamo3,3_FlexCamo_CBO153_v61.1;v60.0;i8.1_t7.0;t10.0_b1.2;b5.2_NTB - Pixel Dr (231)_ADVANTAGE_ALL_18-65_All_All_All_15689,2026-06-09,2026-06-22
+120244761582650436,marketer01@crossian.com,FlexCamo3,3_FlexCamo_CBO153_v61.1;v60.0;i8.1_t7.0;t10.0_b1.2;b5.2_NTB - Pixel Dr (231)_ADVANTAGE_ALL_18-65_All_All_All_15689,2026-06-09,2026-06-23
 120244761596340436,marketer01@crossian.com,FlexCamo3,5_FlexCamo_CBO153_i7.1;v61.1;v51.0_t26.1;t7.0_b1.2_NTB - Pixel Dr (231)_ADVANTAGE_ALL_18-65_All_All_All_15689,2026-06-09,2026-06-11
 120244761672760436,marketer01@crossian.com,FlexCamo3,2_FlexCamo_CBO153_v62.1;i8.0;i8.1_t7.0_b5.2_NTB - Pixel Dr (231)_ADVANTAGE_ALL_18-65_All_All_All_15689,2026-06-09,2026-06-09
 120244761672790436,marketer01@crossian.com,FlexCamo3,1_FlexCamo_CBO153_v62.1;i8.0;i8.1_t7.0_b5.2_NTB - Pixel Dr (231)_ADVANTAGE_ALL_18-65_All_All_All_15689,2026-06-09,2026-06-09
@@ -1898,6 +1898,7 @@ campaign_id,marketer,product,campaign_name,first_seen,last_seen
 120246835901050032,duc.vannguyen@crossian.com,Activa Bra 2.0,2_Activa Bra_CBO153_v29.2_t3.0;t8.1;t12.1_b2.0;b5.0;b5.1_l2.1_DNV - Pixel LLC 27 (313)_ADVANTAGE_ALL_18-65_All_All_All_20275,2026-06-19,2026-06-21
 120246841342340173,hoang.xuanpham@crossian.com,BennettFlex,1_BennettFlex_CBO151_v2.0_t1.0_b1.1_Px_HPX_BennettFlex_CXN (1976)_ADVANTAGE_ALL_18-65_All_All_All_29067,2026-06-22,2026-06-22
 120246841342350173,hoang.xuanpham@crossian.com,BennettFlex,2_BennettFlex_CBO151_v2.0_t1.0_b1.1_Px_HPX_BennettFlex_CXN (1976)_ADVANTAGE_ALL_18-65_All_All_All_29067,2026-06-22,2026-06-23
+120246841363130474,minh.dinhnguyen@crossian.com,RemiCurve 1.0,5_RemiCurve_CBO153_v2.1;v4.1;i1.0_t1.0_b1.0_Px_MND_RemiCurve_76 (5457)_ADVANTAGE_ALL_18-65_All_All_All_29532,2026-06-23,2026-06-23
 120246841599550477,nhat.longtran@crossian.com,Veracomfort 3.0,1_Veracomfort_CBO153_v7.1;v14.2_t2.0;t4.1_b11.0_Px_NTL_Veracomfort_62 (1152)_ADVANTAGE_ALL_18-65_All_All_All_26385,2026-06-11,2026-06-14
 120246843148820752,nhat.longtran@crossian.com,ZipLacy,1_ZipLacy_CBO151_v29.1_t8.1_b1.2_Px_NTL_ZipLacy_25 (9540)_ADVANTAGE_ALL_18-65_All_All_All_21940,2026-06-19,2026-06-22
 120246843188440752,nhat.longtran@crossian.com,ZipLacy,1_ZipLacy_CBO153_i4.1;v28.2;v29.1_t7.0;t8.1_b1.2_Px_NTL_ZipLacy_25 (9540)_ADVANTAGE_ALL_18-65_All_All_All_21940,2026-06-19,2026-06-23
@@ -2628,7 +2629,7 @@ campaign_id,marketer,product,campaign_name,first_seen,last_seen
 120247591402040065,thien.caoly@crossian.com,AirFlexion,6_AirFlexion_CBO153_v5.0;v19.0;v25.2_t1.0;t13.2_b1.0_Px_TCL_Airflexion_CXN (8543)_ADVANTAGE_ALL_18-65_All_All_All_29204,2026-06-10,2026-06-12
 120247591966310642,thinh.cuongnguyen@crossian.com,EaseMotions,2_EaseMotions_CBO153_v28.2;i13.1;v30.0_t11.2;t15.1_b7.1_l1.2_Px_TNC_Easemotions_27 (0578)_ADVANTAGE_ALL_18-65_All_All_All_21126,2026-06-09,2026-06-15
 120247591966330642,thinh.cuongnguyen@crossian.com,EaseMotions,1_EaseMotions_CBO153_v28.2;i13.1;v30.0_t11.2;t15.1_b7.1_l1.2_Px_TNC_Easemotions_27 (0578)_ADVANTAGE_ALL_18-65_All_All_All_21126,2026-06-09,2026-06-09
-120247594535460629,thanh.tritran@crossian.com,AirFlexion,1_AirFlexion_CBO153_v28.1;v28.2;v28.0_t13.2_b1.0_Px_TTT_Air Flexion_15 (4167)_ADVANTAGE_ALL_18-65_All_All_All_22590,2026-06-18,2026-06-22
+120247594535460629,thanh.tritran@crossian.com,AirFlexion,1_AirFlexion_CBO153_v28.1;v28.2;v28.0_t13.2_b1.0_Px_TTT_Air Flexion_15 (4167)_ADVANTAGE_ALL_18-65_All_All_All_22590,2026-06-18,2026-06-23
 120247594535930629,thanh.tritran@crossian.com,AirFlexion,2_AirFlexion_CBO153_v28.1;v28.2;v28.0_t13.2_b1.0_Px_TTT_Air Flexion_15 (4167)_ADVANTAGE_ALL_18-65_All_All_All_22590,2026-06-18,2026-06-22
 120247594827910629,thanh.tritran@crossian.com,AirFlexion,2_AirFlexion_CBO153_v5.0;v5.1;v5.2_t13.2_b1.0_Px_TTT_Air Flexion_15 (4167)_ADVANTAGE_ALL_18-65_All_All_All_22590,2026-06-18,2026-06-18
 120247595220850629,thanh.tritran@crossian.com,AirFlexion,2_AirFlexion_CBO153_v5.0;v5.1;v5.2_t13.2_b1.0_Px_TTT_Air Flexion_15 (4167)_ADVANTAGE_ALL_18-65_All_All_All_22590,2026-06-18,2026-06-20
