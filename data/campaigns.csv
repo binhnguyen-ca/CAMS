@@ -3132,6 +3132,8 @@ campaign_id,marketer,product,campaign_name,first_seen,last_seen
 120248040060750126,marketer01@crossian.com,Veracomfort 3.0,4_Veracomfort_CBO-113-Adv-Adv_v7.1;v7.2;v13.0_t4.0_b2.0_Px_NTB_Veracomfort_33 (3752)N_ADVANTAGE_ALL_18-65_All_All_All_25640,2026-06-12,2026-06-21
 120248040382930126,marketer01@crossian.com,Veracomfort 3.0,1_Veracomfort_CBO-113-Adv-Adv_v7.2;v13.0;v14.2_t2.0;t4.2_b2.0;b11.0_Px_NTB_Veracomfort_33 (3752)N_ADVANTAGE_ALL_18-65_All_All_All_25640,2026-06-12,2026-06-12
 120248040382960126,marketer01@crossian.com,Veracomfort 3.0,2_Veracomfort_CBO-113-Adv-Adv_v7.2;v13.0;v14.2_t2.0;t4.2_b2.0;b11.0_Px_NTB_Veracomfort_33 (3752)N_ADVANTAGE_ALL_18-65_All_All_All_25640,2026-06-12,2026-06-23
+120248043727570731,manh.ductruong@crossian.com,AveraSoft 3.0,5_AveraSoft_CBO151_v2.2_t1.0_b1.0_Px_MTD_AveraSoft_76 (1954)_ADVANTAGE_ALL_18-65_All_All_All_29530,2026-06-23,2026-06-23
+120248043727630731,manh.ductruong@crossian.com,AveraSoft 3.0,4_AveraSoft_CBO151_v2.2_t1.0_b1.0_Px_MTD_AveraSoft_76 (1954)_ADVANTAGE_ALL_18-65_All_All_All_29530,2026-06-23,2026-06-23
 120248045319720214,thien.caoly@crossian.com,Hana Bra,70_Hana Bra_CBO151_v13.1_t4.1_b1.0_l1.0_Px_TCL_HanaBra_15 (4808)_ADVANTAGE_ALL_18-65_All_All_All_28263,2026-06-23,2026-06-23
 120248045547800425,thien.caoly@crossian.com,TimelessFlex,1_TimelessFlex_CBO-113-Value-Adv-Adv-Inc_v13.0;v47.0;v47.2_t15.1;t27.0;t28.0_b10.0;b1.0.1_Px_TCL_TimelessFlex_28 (4845)_ADVANTAGE_ALL_18-65_All_All_All_19421,2026-06-10,2026-06-13
 120248045548240425,thien.caoly@crossian.com,TimelessFlex,2_TimelessFlex_CBO-113-Value-Adv-Adv-Inc_v13.0;v47.0;v47.2_t15.1;t27.0;t28.0_b10.0;b1.0.1_Px_TCL_TimelessFlex_28 (4845)_ADVANTAGE_ALL_18-65_All_All_All_19421,2026-06-10,2026-06-13
@@ -5280,6 +5282,10 @@ campaign_id,marketer,product,campaign_name,first_seen,last_seen
 120251820716360586,ngoc.baonguyen@crossian.com,RosyLift 1.0,5_RosyLift_CBO153_v10.0;v10.2;v10.1_t1.2_b1.0_Px_NNB_RosyLift_02 (3280) N_ADVANTAGE_ALL_18-65_All_All_All_25270,2026-06-23,2026-06-23
 120251827318040586,ngoc.baonguyen@crossian.com,RosyLift 1.0,9_RosyLift_CBO153_v11.0;v11.1;v11.2_t1.2_b2.0.1_Px_NNB_RosyLift_02 (3280) N_ADVANTAGE_ALL_18-65_All_All_All_25270,2026-06-09,2026-06-09
 120251841527180210,nhan.xuanto@crossian.com,JettJeans3,1_JettJeans3_CBO-152-Adv-Adv_v73.2;v76.1_t27.0;t28.0_b50.1;b75.1_Px_NTX_JetJeans_15 (2433)_ADVANTAGE_ALL_18-65_All_All_All_23325,2026-06-12,2026-06-15
+120251850801470427,khoa.minhle@crossian.com,RockyFlex,4_RockyFlex_CBO151_v2.1.3_t2.1.1_b1.1_Px_KLM_RockyFlex_62 (8629)N_ADVANTAGE_ALL_18-65_All_All_All_26354,2026-06-23,2026-06-23
+120251850801570427,khoa.minhle@crossian.com,RockyFlex,3_RockyFlex_CBO151_v2.1.3_t2.1.1_b1.1_Px_KLM_RockyFlex_62 (8629)N_ADVANTAGE_ALL_18-65_All_All_All_26354,2026-06-23,2026-06-23
+120251850851680427,khoa.minhle@crossian.com,RockyFlex,3_RockyFlex_CBO151_v8.0_t2.1.1_b1.1_Px_KLM_RockyFlex_62 (8629)N_ADVANTAGE_ALL_18-65_All_All_All_26354,2026-06-23,2026-06-23
+120251850851780427,khoa.minhle@crossian.com,RockyFlex,4_RockyFlex_CBO151_v8.0_t2.1.1_b1.1_Px_KLM_RockyFlex_62 (8629)N_ADVANTAGE_ALL_18-65_All_All_All_26354,2026-06-23,2026-06-23
 120251852648810709,duc.minhphi@crossian.com,RemiCurve 1.0,2_RemiCurve_CBO151_v4.1_t1.0_b1.0_Px_PPPH_RemiCurve_77 (7450)_ADVANTAGE_ALL_18-65_All_All_All_29377,2026-06-21,2026-06-22
 120251853233980709,duc.minhphi@crossian.com,RemiCurve 1.0,1_RemiCurve_CBO153_v2.1;v4.1;i1.1_t1.0_b1.0_Px_PPPH_RemiCurve_77 (7450)_ADVANTAGE_ALL_18-65_All_All_All_29377,2026-06-21,2026-06-22
 120251853234010709,duc.minhphi@crossian.com,RemiCurve 1.0,2_RemiCurve_CBO153_v2.1;v4.1;i1.1_t1.0_b1.0_Px_PPPH_RemiCurve_77 (7450)_ADVANTAGE_ALL_18-65_All_All_All_29377,2026-06-21,2026-06-22
