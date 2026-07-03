@@ -1583,7 +1583,7 @@ campaign_id,marketer,product,campaign_name,first_seen,last_seen
 120246038278050686,anh.hoangduy@crossian.com,ZoeShape,1_ZoeShape_CBO153_v21.0;v22.2;i15.0_t2.1;t9.0_b8.1_l2.2_Px_AHD_ZoeShape_15 (1268)_ADVANTAGE_ALL_18-65_All_All_All_22970,2026-06-24,2026-06-24
 120246038666710686,anh.hoangduy@crossian.com,ZoeShape,1_ZoeShape_CBO153_v9.0;v21.0;v23.2_t2.1;t9.0_b3.0;b8.1_Px_AHD_ZoeShape_15 (1268)_ADVANTAGE_ALL_18-65_All_All_All_22970,2026-06-24,2026-06-26
 120246038667030686,anh.hoangduy@crossian.com,ZoeShape,2_ZoeShape_CBO153_v9.0;v21.0;v23.2_t2.1;t9.0_b3.0;b8.1_Px_AHD_ZoeShape_15 (1268)_ADVANTAGE_ALL_18-65_All_All_All_22970,2026-06-24,2026-06-25
-120246040085600751,thai.ducvo@crossian.com,IvyLift,3_IvyLift_CBO-153-Value-Ori-Adv-Inc_v38.0;v38.1;v38.2_t18.2_b4.1_l1.1_Px_TVD_IvyLift_02 (7838)N_ORIGINAL_ALL_18-65_All_All_All_22071,2026-06-09,2026-07-02
+120246040085600751,thai.ducvo@crossian.com,IvyLift,3_IvyLift_CBO-153-Value-Ori-Adv-Inc_v38.0;v38.1;v38.2_t18.2_b4.1_l1.1_Px_TVD_IvyLift_02 (7838)N_ORIGINAL_ALL_18-65_All_All_All_22071,2026-06-09,2026-07-03
 120246043597440533,trung.duyle@crossian.com,CurvyLace,10_CurvyLace_CBO151_v19.2_t1.2_b2.1_Px_TLD_CurvyLace_02 (2535)N_ADVANTAGE_ALL_18-65_All_All_All_26325,2026-06-12,2026-06-14
 120246048002040455,tu.minhpham@crossian.com,StretchActive3,2_StretchActive_CBO-111-Adv-Adv_v79.2_t38.2_autogen_20260508142953_l20260508145232_Px_TPM_StretchActive_B8 (2969)_ADVANTAGE_ALL_18-65_All_All_All_15069,2026-06-17,2026-06-18
 120246048411090455,tu.minhpham@crossian.com,StretchActive3,1_StretchActive_CBO-116-Adv-Adv_v34.2;v55.0;v55.2;v57.0;i17.2;v78.1_t32.0;t34.2;t38.2;t16.0;t42.0_b3.0;V_20241213113639;autogen_20260508142953_l20260508145232_Px_TPM_StretchActive_B8 (2969)_ADVANTAGE_ALL_18-65_All_All_All_15069,2026-06-17,2026-06-17
@@ -8277,6 +8277,8 @@ campaign_id,marketer,product,campaign_name,first_seen,last_seen
 120252717538820404,nhan.xuanto@crossian.com,AiryGrace,1_AiryGrace_CBO153_v21.2;v21.1;v24.1_t1.0;t12.1;t12.2_b1.2_Px_NTX_AiryGrace_25 (8892)_ADVANTAGE_ALL_18-65_All_All_All_23788,2026-06-30,2026-07-02
 120252717538910404,nhan.xuanto@crossian.com,AiryGrace,2_AiryGrace_CBO153_v21.2;v21.1;v24.1_t1.0;t12.1;t12.2_b1.2_Px_NTX_AiryGrace_25 (8892)_ADVANTAGE_ALL_18-65_All_All_All_23788,2026-06-30,2026-07-02
 120252724481080054,trung.duyle@crossian.com,ZenaLift,1_ZenaLift_CBO153_i4.0;v19.0;i5.2_t13.0;t17.2_b3.1_Px_TLD_CurvyLace_B8 (0006)_ADVANTAGE_ALL_18-65_All_All_All_23829,2026-06-20,2026-06-23
+120252730588470450,anh.phuoctong@crossian.com,EvelynEase 1.0,2_EvelynEase_CBO151_v5.0_t3.1_b1.0_Px_ATP_EvelynEase_09 (3570)_ADVANTAGE_ALL_18-65_All_All_All_29582,2026-07-03,2026-07-03
+120252730588500450,anh.phuoctong@crossian.com,EvelynEase 1.0,1_EvelynEase_CBO151_v5.0_t3.1_b1.0_Px_ATP_EvelynEase_09 (3570)_ADVANTAGE_ALL_18-65_All_All_All_29582,2026-07-03,2026-07-03
 120252733790330210,nhan.xuanto@crossian.com,JettJeans3,1_JettJeans3_CBO-152-Adv-Adv_i7.1;v66.0_t28.0_b69.1_Px_NTX_JetJeans_15 (2433)_ADVANTAGE_ALL_18-65_All_All_All_23325,2026-06-22,2026-06-22
 120252733790380210,nhan.xuanto@crossian.com,JettJeans3,2_JettJeans3_CBO-152-Adv-Adv_i7.1;v66.0_t28.0_b69.1_Px_NTX_JetJeans_15 (2433)_ADVANTAGE_ALL_18-65_All_All_All_23325,2026-06-22,2026-06-22
 120252744965980054,trung.duyle@crossian.com,ZenaLift,2_ZenaLift_CBO153_v34.0;v34.1;v34.2_t13.0_b3.1_Px_TLD_CurvyLace_B8 (0006)_ADVANTAGE_ALL_18-65_All_All_All_23829,2026-06-21,2026-06-23
